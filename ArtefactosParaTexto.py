@@ -25,8 +25,8 @@ def menu():
             print("Error al escoger. Vuelva a intentarlo.")
 
 def cargar_programa(opcion):
-  with console.status("[bold green]Cargando...", spinner="dots"): # Pasamos el NOMBRE del spinner
-    sleep(2)  # Simula un proceso de carga
+  with console.status("[bold green]Cargando...", spinner="dots")
+    sleep(2) # Simula un proceso de carga de 2 segundos.
 
     if opcion == "1":
         print("Cargando [1]")
